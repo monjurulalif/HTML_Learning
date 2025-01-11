@@ -1,4 +1,11 @@
 body{
-	background:#9da2ab;
+	background:#f7e8fc;
+	padding: 30px;
 	
+}
+
+a{
+	color:#fc0303;
+	text-decoration:none;
+	font-size: 20px;
 }
