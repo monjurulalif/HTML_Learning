@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="ennn">
 
 
@@ -147,29 +147,6 @@
         </div>
 		
     </form>
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
     <label for="password"> পেশা:</label>
     <input type="password" id="password" name="password"><br><br>
 
@@ -222,9 +199,95 @@
 <button type="reset">Reset Button</button> <br>
   
   
-    <!-- <input type="date" id="date" name="date"><br><br> -->
+    <!-- <input type="date" id="date" name="date"><br><br> 
 
 
 </body>
 
 </html>
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhakaia Keraniganj Association</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Dhakaia Keraniganj Association</h1>
+            <h2>Keraniganj, Dhaka</h2>
+            <h3>Application Form for Membership</h3>
+        </header>
+
+        <section class="intro">
+            <h5>Honorable President Secretary,</h5>
+            <p>
+                আমরা ঢাকায় কেন্দ্রীয় সমিতির প্রাথমিক সদস্য হিসেবে অন্তর্ভুক্ত করার জন্য বিনীত অনুরোধ করছি 
+                অত্র প্রতিষ্ঠান গঠনতন্ত্র ও প্রতি সকল সিদ্ধান্ত মেনে নিতে।
+            </p>
+        </section>
+
+        <form class="membership-form">
+            <div class="form-group">
+                <label for="father-name">পিতার নাম:</label>
+                <input type="text" id="father-name" name="father-name" placeholder="পিতার নাম লিখুন">
+            </div>
+
+            <div class="form-group">
+                <label for="birth-date">জন্ম তারিখ:</label>
+                <input type="date" id="birth-date" name="birth-date">
+            </div>
+
+            <div class="form-group">
+                <label for="blood-group">রক্তের গ্রুপ:</label>
+                <select id="blood-group" name="blood-group">
+                    <option value="A-">A-</option>
+                    <option value="B+">B+</option>
+                    <option value="AB+">AB+</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="religion">ধর্ম:</label>
+                <select id="religion" name="religion">
+                    <option value="মুসলিম">মুসলিম</option>
+                    <option value="খ্রিস্টান">খ্রিস্টান</option>
+                    <option value="বৌদ্ধ">বৌদ্ধ</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="address">বর্তমান ঠিকানা:</label>
+                <input type="text" id="address" name="address" placeholder="ঠিকানা লিখুন">
+            </div>
+
+            <div class="form-group">
+                <label for="phone">ফোন:</label>
+                <input type="tel" id="phone" name="phone" placeholder="ফোন নম্বর লিখুন">
+            </div>
+
+            <div class="form-group">
+                <label for="education">শিক্ষাগত যোগ্যতা:</label>
+                <input type="text" id="education" name="education" placeholder="শিক্ষাগত যোগ্যতা লিখুন">
+            </div>
+
+            <div class="form-group">
+                <label for="nid-upload">Upload your NID/BRC/passport:</label>
+                <input type="file" id="nid-upload" name="nid-upload">
+            </div>
+
+            <div class="form-buttons">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+
+
+
