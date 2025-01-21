@@ -1,4 +1,4 @@
-body {
+body 
   {
     font-family: Arial, sans-serif;
     line-height: 1.9;
@@ -15,7 +15,7 @@ body {
 .intro {
     background: linear-gradient(135deg, #87ceeb, #d1f7f1);
     color: #333;
-    border: 1px solid #87ceeb;
+    border: 10px solid #87ceeb;
     padding: 20px;
     width: 90%;
     max-width: 600px;
@@ -27,7 +27,7 @@ body {
 
 /* Styling the heading */
 .intro h5 {
-    font-size: 1.5em;
+    font-size: 1.4em;
     margin-bottom: 15px;
     font-weight: bold;
     color: #005f73;
@@ -55,7 +55,7 @@ body {
     left: 50%;
     transform: translateX(-50%);
     width: 80%;
-    height: 15px;
+    height: 20px;
     background: radial-gradient(circle, rgba(135, 206, 235, 0.5), transparent);
     animation: glow 1.5s infinite ease-in-out;
 }
