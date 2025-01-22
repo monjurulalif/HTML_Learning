@@ -12,10 +12,10 @@ body
 }
 
 /* Styling the intro section */
-.intro {
+.intro{
     background: linear-gradient(135deg, #87ceeb, #d1f7f1);
     color: #333;
-    border: 10px solid #87ceeb;
+    border: 1px solid #87ceeb;
     padding: 20px;
     width: 90%;
     max-width: 600px;
@@ -23,7 +23,10 @@ body
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
     position: relative;
+    margin: 0 auto;
+    padding-right: 1px;
 }
+
 
 /* Styling the heading */
 .intro h5 {
