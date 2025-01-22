@@ -15,17 +15,24 @@ body
 .intro{
     background: linear-gradient(135deg, #87ceeb, #d1f7f1);
     color: #333;
-    border: 1px solid #87ceeb;
-    padding: 20px;
-    width: 90%;
+    border: 2px solid #5aa6c8; /* বর্ডারকে একটু গাঢ় করা হয়েছে */
+    padding: 20px 30px; /* ডান-বাম পাশে একটু বেশি জায়গা দেওয়া হয়েছে */
+    width: 80%; /* চওড়াটা একটু কমানো হয়েছে */
     max-width: 600px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 15px; /* কোণগুলো আরও গোল করা হয়েছে */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* শ্যাডো আরও স্পষ্ট করা হয়েছে */
     text-align: center;
     position: relative;
-    margin: 0 auto;
-    padding-right: 1px;
+    margin: 30px auto; /* উপর-নীচে ফাঁকা জায়গা যোগ করা হয়েছে */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* হোভার ইফেক্টের জন্য */
 }
+
+/* হোভার ইফেক্ট */
+:hover {
+    transform: scale(1.05); /* একটু বড় দেখাবে হোভার করলে */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* শ্যাডো আরও গভীর হবে */
+}
+
 
 
 /* Styling the heading */
