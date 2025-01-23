@@ -15,12 +15,11 @@ body
 .intro {
     background: linear-gradient(135deg, #87ceeb, #78ff7a);
     color:#ffa978;
-    border: 1px solid #190be0;
+    border: 3px solid #f20a0a;
     padding: 20px;
     width: 90%;
-    max-width: 600px;
+    max-width: 6000px;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
     position: relative;
     padding-right: 15px;
@@ -28,7 +27,7 @@ body
 }
 
 .intro:hover {
-    background: linear-gradient(135deg, #b1fcfa, #b1fcfa);
+    background: linear-gradient(135deg, #b1fcfa, #ffa978);
     border-color: #e010c5;
 }
 
@@ -39,7 +38,7 @@ body
     font-size: 1.4em;
     margin-bottom: 15px;
     font-weight: bold;
-    color: #005f73;
+    color: #f20a0a;
 }
 
 /* Styling the paragraph */
@@ -53,7 +52,8 @@ body
 .intro:hover {
     transform: scale(1.03);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+	box-shadow: 0 0 20px #0320fc;
+	
 }
 
 /* Light animation effect */
@@ -86,8 +86,10 @@ body
     background:#e6b3f2;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+
 }
+
 
 header {
     text-align: center;
@@ -113,7 +115,7 @@ header h3 {
     margin-bottom: 20px;
     padding: 10px;
     background:#40c7d6;
-    border-left: 4px solid #007bff;
+    border-left: 4px solid #f20a0a;
 }
 
 .intro h5 {
