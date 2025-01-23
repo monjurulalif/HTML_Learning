@@ -12,10 +12,10 @@ body
 }
 
 /* Styling the intro section */
-.intro{
-    background: linear-gradient(135deg, #87ceeb, #d1f7f1);
-    color: #333;
-    border: 1px solid #87ceeb;
+.intro {
+    background: linear-gradient(135deg, #87ceeb, #78ff7a);
+    color:#ffa978;
+    border: 1px solid #190be0;
     padding: 20px;
     width: 90%;
     max-width: 600px;
@@ -24,8 +24,14 @@ body
     text-align: center;
     position: relative;
     padding-right: 15px;
-	margin: 0 auto;
+    margin: 0 auto;
 }
+
+.intro:hover {
+    background: linear-gradient(135deg, #b1fcfa, #b1fcfa);
+    border-color: #e010c5;
+}
+
 
 
 /* Styling the heading */
@@ -106,16 +112,16 @@ header h3 {
 .intro {
     margin-bottom: 20px;
     padding: 10px;
-    background:#ebd8b2;
+    background:#40c7d6;
     border-left: 4px solid #007bff;
 }
 
 .intro h5 {
-    color: #343a40;
+    color:#f70546;
 }
 
 .intro p {
-    color: #495057;
+    color: #000000;
 }
 
 .membership-form .form-group {
