@@ -1,0 +1,30 @@
+body 
+  {
+    font-family: Arial, sans-serif;
+    line-height: 1.9;
+    background-color: #b2ebe8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.intro {
+background-color: #f5d142;
+color :#090a0a;
+border : 1px solid #9ba105 ;	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+header {
+	text-align : center ;
+	color : #15069c;
+}
