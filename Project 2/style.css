@@ -1,4 +1,4 @@
-/* body 
+body 
   {
     font-family: Arial, sans-serif;
     line-height: 1.9;
@@ -10,10 +10,10 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-}/* 
+}
 
 /* Styling the intro section */
-/*.intro {
+.intro {
     background: linear-gradient(135deg, #87ceeb, #78ff7a);
     color:#ffa978;
     border: 3px solid #f20a0a;
@@ -30,17 +30,17 @@
 .intro:hover {
     background: linear-gradient(135deg, #b1fcfa, #ffa978);
     border-color: #e010c5;
-}/*
+}
 
 
 
 /* Styling the heading */
-/*.intro h5 {
+.intro h5 {
     font-size: 1.4em;
     margin-bottom: 15px;
     font-weight: bold;
     color: #f20a0a;
-}/*
+}
 
 /* Styling the paragraph */
 .intro p {
@@ -58,7 +58,7 @@
 }
 
 /* Light animation effect */
-/*.intro::after {
+.intro::after {
     content: '';
     position: absolute;
     bottom: -10px;
@@ -68,10 +68,10 @@
     height: 20px;
     background: radial-gradient(circle, rgba(135, 206, 235, 0.5), transparent);
     animation: glow 1.5s infinite ease-in-out;
-} */
+}
 
 /* Keyframes for the glowing light */
-/*@keyframes glow {
+@keyframes glow {
     0%, 100% {
         opacity: 0.5;
         transform: translateX(-50%) scaleX(1);
@@ -171,36 +171,6 @@ header h3 {
 
 .membership-form button[type="reset"]:hover {
     background: #c82333;
-} */
-
-a
-
-text-decoration: none;
-
-color: #fff;
-
 }
-
-body {
-
-background: url(bg.jpg);
-
-background-position: center;
-
-background-repeat: no-repeat;
-
-background-size: cover;
-
-height: 100vh;
-
-}
-
-.login_container {
-
-width: 100%;
-
-max-width: 500px;
-
-margin: auto; }
 
 
