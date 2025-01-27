@@ -173,31 +173,34 @@ header h3 {
     background: #c82333;
 } */
 
-/* Links */
-a {
-  text-decoration: none;
-  color: #fff;
+a
+
+text-decoration: none;
+
+color: #fff;
+
 }
 
-/* Body styling */
 body {
-  background: url('bg.jpg') center no-repeat;
-  background-size: cover;
-  height: 100vh;
-  margin: 0; /* Ensure no default margins */
-  font-family: Arial, sans-serif; /* Optional: Add a font-family */
+
+background: url(bg.jpg);
+
+background-position: center;
+
+background-repeat: no-repeat;
+
+background-size: cover;
+
+height: 100vh;
+
 }
 
-/* Login container */
 .login_container {
-  width: 100%;
-  max-width: 500px;
-  margin: auto;
-  padding: 20px; /* Add some padding for spacing */
-  background-color: rgba(0, 0, 0, 0.5); /* Optional: Semi-transparent background */
-  border-radius: 10px; /* Rounded corners */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
-  color: #fff; /* Ensure text inside is visible */
-}
+
+width: 100%;
+
+max-width: 500px;
+
+margin: auto; }
 
 
