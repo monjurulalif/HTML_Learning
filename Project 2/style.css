@@ -1,4 +1,4 @@
-body 
+/* body 
   {
     font-family: Arial, sans-serif;
     line-height: 1.9;
@@ -10,10 +10,10 @@ body
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-}
+}/* 
 
 /* Styling the intro section */
-.intro {
+/*.intro {
     background: linear-gradient(135deg, #87ceeb, #78ff7a);
     color:#ffa978;
     border: 3px solid #f20a0a;
@@ -30,17 +30,17 @@ body
 .intro:hover {
     background: linear-gradient(135deg, #b1fcfa, #ffa978);
     border-color: #e010c5;
-}
+}/*
 
 
 
 /* Styling the heading */
-.intro h5 {
+/*.intro h5 {
     font-size: 1.4em;
     margin-bottom: 15px;
     font-weight: bold;
     color: #f20a0a;
-}
+}/*
 
 /* Styling the paragraph */
 .intro p {
@@ -49,16 +49,16 @@ body
     color: #003d4d;
 }
 
-/* Hover effect for the section */
+/* Hover effect for the section 
 .intro:hover {
     transform: scale(1.03);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 	box-shadow: 0 0 20px #0320fc;
 	
-}
+}*/
 
 /* Light animation effect */
-.intro::after {
+/*.intro::after {
     content: '';
     position: absolute;
     bottom: -10px;
@@ -68,10 +68,10 @@ body
     height: 20px;
     background: radial-gradient(circle, rgba(135, 206, 235, 0.5), transparent);
     animation: glow 1.5s infinite ease-in-out;
-}
+} */
 
 /* Keyframes for the glowing light */
-@keyframes glow {
+/*@keyframes glow {
     0%, 100% {
         opacity: 0.5;
         transform: translateX(-50%) scaleX(1);
@@ -171,6 +171,33 @@ header h3 {
 
 .membership-form button[type="reset"]:hover {
     background: #c82333;
+} */
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Body styling */
+body {
+  background: url('bg.jpg') center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin: 0; /* Ensure no default margins */
+  font-family: Arial, sans-serif; /* Optional: Add a font-family */
+}
+
+/* Login container */
+.login_container {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  padding: 20px; /* Add some padding for spacing */
+  background-color: rgba(0, 0, 0, 0.5); /* Optional: Semi-transparent background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  color: #fff; /* Ensure text inside is visible */
 }
 
 
