@@ -49,13 +49,13 @@
     color: #003d4d;
 }
 
-/* Hover effect for the section 
+/* Hover effect for the section */
 .intro:hover {
     transform: scale(1.03);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 	box-shadow: 0 0 20px #0320fc;
 	
-}*/
+}
 
 /* Light animation effect */
 /*.intro::after {
